@@ -1,0 +1,29 @@
+html{
+    background-color:#000;
+}
+#flex-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.flex-item{
+    background-color:rgb(0, 183, 255);
+    color:#000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    font-size:2.5vw;
+    width:20%;
+    height:35vh;
+    border: solid #000 10px;
+}
+
+/* cool notes for hover properties:
+
+- make squares images of projects
+- when you hover over a square, the preview of a project shows up and the text disappears
+- text starts off as white text on black or blue background (test how cool they look on the black html)
+
+
+*/
